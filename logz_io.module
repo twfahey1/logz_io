@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains logz_io.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function logz_io_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the logz_io module.
+    case 'help.page.logz_io':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides integration with Logz.io') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function logz_io_theme() {
+  return [
+    'logz_io' => [
+      'render element' => 'children',
+    ],
+  ];
+}

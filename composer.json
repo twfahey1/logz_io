@@ -1,0 +1,13 @@
+{
+    "name": "logz_io",
+    "type": "drupal-module",
+    "description": "Provides integration with Logz.io",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/logz_io",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/logz_io",
+        "source": "http://cgit.drupalcode.org/logz_io",
+    },
+}

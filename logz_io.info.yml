@@ -1,0 +1,5 @@
+name: 'Logz.io'
+type: module
+description: 'Provides integration with Logz.io'
+core: 8.x
+package: 'System'
